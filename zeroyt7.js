@@ -439,7 +439,7 @@ timestamp = speed();
 				latensi = speed() - timestamp
                   	teks =
 `┏━➤ *INFO BOT* 
-*┃┃* Creator Bot : Zero YT7
+*┃┃* Creator Bot : IndraGanz
 *┃┃* Nama Owner : ${ownername}
 *┃┃* Nama Bot : ${botname}
 *┃┃* Prefix : Multi Prefix
@@ -450,14 +450,14 @@ timestamp = speed();
 *┃┗━━━━━━━━*
 *┃◗ Thanks To Allah S.W.T*
 *┃◗ Thank To Ortu*
-*┃◗ Thank To Zero YT7 (Creator)*
-*┃◗ Thanks To All Subscriberku*
+*┃◗ Thank To All Friends*
+*┃◗ Thanks To Inz Gans*
 *┗━━━━━━━ •*`
                   but = [
           { buttonId: `${prefix}owner`, buttonText: { displayText: '☰ OWNER' }, type: 1 },
           { buttonId: `${prefix}sc`, buttonText: { displayText: '☰ SCRIPT' }, type: 1 }
         ]
-        sendButton(from, teks, '©Created : Zero YT7', but, mek)
+        sendButton(from, teks, '©Creator : InzGans', but, mek)
 break
 	
 //━━━━━━━━━━━━━━━[ FITUR GROUP ]━━━━━━━━━━━━━━━━━//
@@ -465,7 +465,7 @@ break
 case 'welcome':
 if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins) return reply(mess.only.admin)
-if (!isBotGroupAdmins) return reply("Bot Bukan Admin :)")
+if (!isBotGroupAdmins) return reply("Bot Ngga Admin Cuk :)")
 but = [
 { buttonId: '!welcomeon', buttonText: { displayText: '☰ ON' }, type: 1 },
 { buttonId: '!welcomeoff', buttonText: { displayText: '☰ OFF' }, type: 1 }
@@ -792,7 +792,7 @@ exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 fs.unlinkSync(media)
 if (err) return reply(' Gagal, pada saat mengkonversi sticker ke gambar ')
 buffer = fs.readFileSync(ran)
-costum(buffer, image, Verived, `Jangan Lupa Subscribe Zero YT7`)
+costum(buffer, image, Verived, `Jangan Lupa Sv Nomor Owner`)
 fs.unlinkSync(ran)
 })
 break
@@ -832,7 +832,7 @@ let inilist = []
 for (let i of ownerNumber) {
 let vname = zeroyt7.contacts[i] != undefined ? zeroyt7.contacts[i].vname || zeroyt7.contacts[i].notify : undefined
 inilist.push({
-"displayName": 'ZeroYT7',
+"displayName": 'IndraGanz',
 "vcard": 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${ownername}\n`
@@ -851,7 +851,7 @@ button = [
   {buttonId: '.tiktok', buttonText: {displayText: '☰ TIKTOK'}, type: 1}
 ]
  buttons = {
-    contentText: 'Nih Nomer Owner Ku Mau Tau Tentang Apa Ya ?',
+    contentText: 'Nih Nomer Owner Ku jan Lupa Sv',
     footerText: faketeks,
     buttons: button,
     headerType: 1
@@ -859,14 +859,14 @@ button = [
 await zeroyt7.sendMessage(from, buttons, MessageType.buttonsMessage, {quoted: ftrol})
 break
 case 'bc':
-if (!isOwner) return reply('LU BUKAN OWNER GBLOK')
+if (!isOwner) return reply('LU BUKAN OWNER GW🗿')
 if (args.length < 1) return reply('Teksnya?')
 anu = await zeroyt7.chats.all()
 for (let _ of anu) {
 buttonss = [{buttonId: `${prefix}menu`, buttonText: {displayText: '☰ MENU'}, type: 1},{buttonId: `${prefix}sewabot`, buttonText: {displayText: '☰ SEWA BOT'}, type: 1}]
 const btnbc = {
 contentText: `${q}`,
-footerText: '*SILAHKAN TEKAN BUTTON UNTUK INFORMASI LANJUT*',
+footerText: '*PENCET ITU BUAT NEXT*',
 buttons: buttonss,
 headerType: 1
 }
